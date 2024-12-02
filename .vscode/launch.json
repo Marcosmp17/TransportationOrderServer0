@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TransportationOrderServerApplication<TransportationOrderServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.upm.dit.apsv.transportationorderserver.TransportationOrderServerApplication",
+            "projectName": "TransportationOrderServer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=37285 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=TransportationOrderServer"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GPSEnabledTrucksSimulatorApplication<GPSEnabledTrucksSimulator>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.upm.dit.apsv.gpsenabledtruckssimulator.GPSEnabledTrucksSimulatorApplication",
+            "projectName": "GPSEnabledTrucksSimulator",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TraceServerApplication<traceserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.upm.dit.apsv.traceserver.TraceServerApplication",
+            "projectName": "traceserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
