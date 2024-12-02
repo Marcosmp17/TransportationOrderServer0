@@ -1,2 +1,0 @@
-# GPSEnabledTrucksSimulator
-# GPSEnabledTrucksSimulator
