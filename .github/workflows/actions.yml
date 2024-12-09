@@ -108,4 +108,4 @@ jobs:
 
           push: true
 
-          tags: ghcr.io/Marcosmp17/tos:latest
+          tags: ghcr.io/marcosmp17/tos:latest
